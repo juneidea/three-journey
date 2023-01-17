@@ -15,7 +15,7 @@ function init() {
 	video.height = window.innerHeight / 2;
 	video.loop = true;
 	video.muted = true;
-	video.src = '/examples/video-texture-360/assets/neotrade.mp4';
+	video.src = '/assets/neotrade.mp4';
 	video.setAttribute( 'webkit-playsinline', 'webkit-playsinline' );
 	video.play();
 
